@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
+    <title>Shoes Landing Page</title>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div class="navbar">
+        <div class="navlogo">
+            <img src="data:image/png;base64,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" alt="" class="navlogoooo">
+        </div>
+        <div class="navlist">
+            <li>Menu</li>
+            <li>location</li>
+            <li>about</li>
+            <li>contact</li>
+        </div>
+        <div class="navbutton" >
+            <button class="navbuttonn">login</button>
+        </div>
+    </div>
+
+    <!-- herosection -->
+
+    <div class="container1">
+        <div class="part1">
+            <h1>YOUR FEET </br> DESERVE </br> THE BEST</h1>
+        </div>
+        <div class="img">
+            <img src="./asset/image/img1copy.png" alt="" class="img1">
+        </div>
+    </div>
+
+    <div class="writing">
+        <p>
+            YOUR FEET DESERVE THE BEST AND WE'RE HERE TO</br>HELP YOU WITH OUR SHOES.YOUR FEET DESERVE</br> THE BEST AND WE'RE HERE TO HELP YOU WITH OUR</br> SHOES. 
+        </p>
+    </div>
+
+    <div class="button">
+        <div class="buttonn">
+        <button class="shopnow">Shop Now</button>
+        <button class="category">Category</button>
+    </div>
+    </div>
+
+    <div class="iconssection">
+        <div class="address">
+            <p>also available on</p>
+        </div>
+        <div class="socialnetwork">
+            <img src="./asset/image/pic2.png" alt="" class="image1">
+            <img src="./asset/image/pic3.png" alt="" class="image2">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>
